@@ -1,6 +1,8 @@
+
+//this shows how to test a website if it is ok
 package newproject;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxDriver; 
 //comment the above line and uncomment below line to use Chrome
 //import org.openqa.selenium.chrome.ChromeDriver;
 public class PG1 {
@@ -18,7 +20,7 @@ public class PG1 {
         String expectedTitle = "Welcome: Mercury Tours";
         String actualTitle = "";
 
-        // launch Fire fox and direct it to the Base URL
+        // launch Firefox and direct it to the Base URL
         driver.get(baseUrl);
 
         // get the actual value of the title
